@@ -3,29 +3,53 @@
 This project aims to classify the overall experience of Shinkansen (bullet train) travelers based on various factors using the XGBoost classifier model. The dataset used contains the following columns:
 
 ID: Unique identifier for each record.
+
 Gender: Gender of the traveler (e.g., Male, Female).
+
 Customer_Type: Type of customer (e.g., Business Traveler, Leisure Traveler).
+
 Age: Age of the traveler.
+
 Type_Travel: Purpose of travel (e.g., Business, Personal).
+
 Travel_Class: Class of travel (e.g., First Class, Economy).
+
 Travel_Distance: Distance of travel.
+
 Departure_Delay_in_Mins: Delay in departure time.
+
 Arrival_Delay_in_Mins: Delay in arrival time.
+
 Platform_Location: Location of the platform.
-Seat_Class: Class of seating (e.g., Window, Aisle).
-Overall_Experience: Target variable indicating the overall experience (0 for negative experience, 1 for positive experience).
-Seat_Comfort: Rating of seat comfort.
+
+Seat_Class: Class of seating
+
+Overall_Experience: Target variable indicating the overall experience
+
+Seat_Comfort: Rating of seat comfort
+
 Arrival_Time_Convenient: Rating of arrival time convenience.
+
 Catering: Rating of catering services.
+
 Onboard_Wifi_Service: Rating of onboard WiFi service.
+
 Onboard_Entertainment: Rating of onboard entertainment.
+
 Online_Support: Rating of online customer support.
+
 Ease_of_Online_Booking: Rating of ease of online booking.
+
 Onboard_Service: Rating of onboard service.
+
 Legroom: Rating of legroom comfort.
+
 Baggage_Handling: Rating of baggage handling.
+
 CheckIn_Service: Rating of check-in service.
+
 Cleanliness: Rating of cleanliness onboard.
+
 Online_Boarding: Rating of online boarding process.
 
 **Project Overview**
